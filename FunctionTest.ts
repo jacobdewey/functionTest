@@ -2,7 +2,7 @@
 namespace FunctionTests{
 //% blockId= FunctionTest block="FunctionTest"
 export function FunctionTest(d: () => void): void {
-function doSomething(d: () => void): void {
+export function doSomething(d: () => void): void {
 d
 }
 
